@@ -1,12 +1,12 @@
-import react from "react"
-import SchoolProfile from "./SchoolProfile"
-import StudentProfile from "./StudentProfile"
+import react from "react";
+import SchoolProfile from "./SchoolProfile";
+import StudentProfile from "./StudentProfile";
 
 export default function Profile() {
-    return (
-        <div>
-            <SchoolProfile/>
-            <StudentProfile/>
-        </div>
-    )
+  return (
+    <div>
+      <SchoolProfile />
+      <StudentProfile />
+    </div>
+  );
 }
