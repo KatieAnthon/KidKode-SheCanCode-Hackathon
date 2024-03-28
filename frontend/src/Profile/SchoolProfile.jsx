@@ -1,23 +1,29 @@
-import React,{ useState } from 'react'
+import React, { useState } from 'react'
+import "./SchoolProfile.css"
+import placeholder from "../assets/placeholder.jpg"
+import school_logo from "../assets/school.jpeg"
 
 
 export default function SchoolProfile() {
-    const schoolName = useState("School Name")
-    const schoolScore = useState("School Score")
+    const schoolName = useState("placeholder")
+    const schoolScore = useState(5555)
     return (
-        <div className='school-profile' stype={{ backgroundColour: '#eee' }}>
-            <h1 className="justify-content-center">{schoolName}</h1>
-            <form className=''>
-                <div>
-                    <img src={currentSchool.schoolLogo} alt='school logo' className=''/>
-
-                    <TextInput type={schoolName} id='schoolName' placeholder='school name' defaultValue={currentSchool.schoolName}/>
-                    <dev>
-                        <TextInput type={schoolScore} id='schoolScore' placeholder='school score' defaultValue={currentSchool.schoolScore}/>
-                        <img src={currentSchool.schoolbadges} alt='school badges' className='school badges'/>
-                    </dev>
+        <div className='schoolProfile'>
+            <div>
+                <img src={school_logo} alt='school logo' className='img' />
+            </div>
+            <div className='schoolProfile'>
+                <p>{schoolName}</p>
+            </div>
+            <div className='schoolScore'>
+                <div className='points'>
+                    <p>{schoolScore}</p>
                 </div>
-            </form>
+                <div className='badges'>
+                    <img src={badge} alt='school badges' className='badges' />
+                </div>
+            </div>
         </div >
+
     );
 }
