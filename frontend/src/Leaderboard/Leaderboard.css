@@ -4,7 +4,18 @@
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  color: black;
+  /* Add Flexbox properties for centering content */
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  flex-direction:column-reverse;
+}
+
+.leaderboard-row {
+  border: 1px solid #000;
+  /* Remove duplicate styles */
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
   color: black;
 }

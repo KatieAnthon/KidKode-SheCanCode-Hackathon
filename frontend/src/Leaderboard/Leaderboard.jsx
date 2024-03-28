@@ -33,7 +33,7 @@ const Leaderboard = () => {
         </thead>
         <tbody className="leaderboard-data">
           {leaderboardData.map((entry, index) => (
-            <tr key={entry.school}>
+            <tr key={entry.school} className="leaderboard-row">
               <td>{index + 1}</td>
               <td>{entry.school}</td>
               <td>{entry.score}</td>
