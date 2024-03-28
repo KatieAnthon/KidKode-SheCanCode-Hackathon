@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -6,6 +7,14 @@ function Login() {
   const handleEmailSubmit = (event) => {
     setEmail(event.value);
   };
+
+  const navigate = useNavigate();
+
+  const goToDashBoardPage = () => {
+    navigate("/Profile");
+    return null;
+  };
+
 
   return (
       <form onSubmit={handleEmailSubmit}>
@@ -26,6 +35,7 @@ function Login() {
             className="submit-button"
             id="submit"
             type="submit"
+            onClick={goToDashBoardPage}
           >
             Submit
             </button>
