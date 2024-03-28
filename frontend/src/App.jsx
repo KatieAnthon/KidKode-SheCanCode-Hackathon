@@ -6,10 +6,10 @@ import Login from "./Login/Login";
 function App() {
   return (
     <>
+      <div className="header">
+        <KidkodeHeader />
+      </div>
       <div className="container">
-        <div className="header">
-          <KidkodeHeader />
-        </div>
         <div className="column">
           <Leaderboard />
         </div>
