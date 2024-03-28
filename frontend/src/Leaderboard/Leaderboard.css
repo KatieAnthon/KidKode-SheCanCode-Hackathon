@@ -1,8 +1,10 @@
 .leaderboard-main {
-  background-color: #f7fbf1;
-  background-color: #d0f6c8; 
+  background-color: #f7fbf1; 
   border-radius: 10px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  align-items: center;
+  flex-direction:column-reverse;
+  color: black;
 }
