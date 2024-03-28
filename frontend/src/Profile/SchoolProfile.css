@@ -1,0 +1,23 @@
+.schoolProfile {
+    display: flex;
+    flex-direction: row;
+}
+
+.schoolScore {
+    display: flex;
+    flex-direction: row;
+    flex: flex-end;
+}
+
+.badges {
+    flex: flex-end;
+}
+
+.points {
+    flex: flex-start;
+    margin-right: 10rem;
+}
+
+img {
+    border: 1px transparent solid;
+}
