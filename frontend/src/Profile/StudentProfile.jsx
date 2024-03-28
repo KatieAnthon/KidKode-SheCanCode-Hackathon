@@ -2,6 +2,10 @@ import { useState } from "react";
 import "./StudentProfile.css";
 import placeholder from "../assets/placeholder.png";
 import { useNavigate } from "react-router-dom";
+import  badge1 from "../assets/badge1.png"
+import  badge2 from "../assets/badge2.png"
+import  badge3 from "../assets/badge3.png"
+import  badge4 from "../assets/badge4.png"
 
 export default function StudentProfile() {
   const userName = useState("Smart Badger");
@@ -36,6 +40,26 @@ export default function StudentProfile() {
           </div>
           <div className="badges">
             <p>Badges: </p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src={badge1} alt={`Badge 1`} style={{ width: "50px", height: "50px" }} />
+                        </td>
+                        <td>
+                            <img src={badge2} alt={`Badge 2`} style={{ width: "50px", height: "50px" }} />
+                        </td>
+                        <td>
+                            <img src={badge3} alt={`Badge 3`} style={{ width: "50px", height: "50px" }} />
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                            <img src={badge4} alt={`Badge 4`} style={{ width: "50px", height: "50px" }} />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
           </div>
         </div>
       </div>

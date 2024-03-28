@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/student-profile" element={<StudentProfile />} />
+        <Route path="/" element={<StudentProfile />} />
         <Route path="/caesar-cipher-game" element={<CaesarCipherGame />} />
       </Routes>
     </Router>
