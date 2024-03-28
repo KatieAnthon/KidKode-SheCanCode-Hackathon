@@ -1,13 +1,19 @@
 import React, { useState } from "react";
 import "./StudentProfile.css"
 import placeholder from "../assets/placeholder.png"
+import { Redirect } from "react-router-dom";
+import CaesarCipherGame from "../Game/CaesarCipherGame";
 
 
 export default function StudentProfile() {
     const userName = useState("Smart Badger")
     const points = useState(27323)
     const name = useState("Alissa")
+    const [redirectToAnotherPage, setRedirectToAnotherPage] = useState(false);
 
+    if (redirectToAnotherPage) {
+        return <Redirect to={CaesarCipherGame} />;
+    }
     
     return (
         <div>
@@ -29,7 +35,7 @@ export default function StudentProfile() {
                     </div>
                 </div>
             </div>
-            <button>Start a challenge</button>
+            <button onClick={() => setRedirectToAnotherPage(true)}>Start a challenge</button>
         </div>
 
     )
