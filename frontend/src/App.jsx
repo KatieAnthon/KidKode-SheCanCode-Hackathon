@@ -1,21 +1,14 @@
-import './App.css'
-import login from './login'
+import "./App.css";
+import Leaderboard from "./Leaderboard/Leaderboard";
 
 function App() {
-  
-
   return (
     <>
       <div>
-      </div>
-      <h1>Hello!</h1>
-      <div className="card">
-      </div>
-      <div>
-        <login>
+        <Leaderboard />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
