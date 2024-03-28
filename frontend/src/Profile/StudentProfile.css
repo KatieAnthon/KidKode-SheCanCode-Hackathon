@@ -1,0 +1,29 @@
+.studentProfile {
+    display: flex;
+    flex-direction: row;
+}
+
+.studentCard {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    flex: flex-start;
+}
+
+.studentRank {
+    display: flex;
+    flex-direction: row;
+    flex: flex-end;
+}
+
+.badges {
+    flex: flex-end;
+}
+
+.points {
+    flex: flex-start;
+}
