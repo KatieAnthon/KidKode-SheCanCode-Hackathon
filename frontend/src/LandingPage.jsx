@@ -2,7 +2,7 @@ import "./LandingPage.css";
 import KidkodeHeader from "./Header/Header";
 import Leaderboard from "./Leaderboard/Leaderboard";
 import Login from "./Login/Login";
-import logo_bg from "./assets/logo_bg.png"
+import logo_bg from "./assets/logo_bg.png";
 
 function LandingPage() {
   return (
