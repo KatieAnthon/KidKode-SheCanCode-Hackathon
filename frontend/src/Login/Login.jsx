@@ -8,10 +8,10 @@ function Login() {
   };
 
   return (
-    <>
       <form onSubmit={handleEmailSubmit}>
         <div className="login-card">
-          <div>
+          <h5>Get Involved!</h5>
+        <div>
             <input
               id="email"
               type="email"
@@ -19,7 +19,8 @@ function Login() {
               className="form-login"
               value={email}
             />
-          </div>
+            </div>
+          <div className="button-container">
           <button
             role="submit"
             className="submit-button"
@@ -29,8 +30,8 @@ function Login() {
             Submit
             </button>
         </div>
+        </div>
       </form>
-    </>
   );
 }
 

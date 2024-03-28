@@ -12,10 +12,9 @@
 }
 
 .leaderboard-row {
-  border: 1px solid #000;
-  /* Remove duplicate styles */
+
+  border: 1px solid #000 ;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  color: black;
 }
