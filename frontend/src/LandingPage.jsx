@@ -1,10 +1,10 @@
-import "./App.css";
+import "./LandingPage.css";
 import KidkodeHeader from "./Header/Header";
 import Leaderboard from "./Leaderboard/Leaderboard";
 import Login from "./Login/Login";
 import logo_bg from "./assets/logo_bg.png"
 
-function App() {
+function LandingPage() {
   return (
     <>
       <div className="header-container">
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default LandingPage;
