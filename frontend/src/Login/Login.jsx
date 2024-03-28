@@ -25,7 +25,9 @@ function Login() {
             className="submit-button"
             id="submit"
             type="submit"
-          />
+          >
+            Submit
+            </button>
         </div>
       </form>
     </>

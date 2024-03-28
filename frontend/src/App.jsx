@@ -1,16 +1,15 @@
 import "./App.css";
 import Leaderboard from "./Leaderboard/Leaderboard";
-import Login from "./Login/login";
+import Login from "./Login/Login";
 
 function App() {
   return (
     <>
       <div className="container">
-        <Leaderboard />
         <div className="column">
-          <h1>Welcome to SheCodes!</h1>
+        <Leaderboard />
         </div>
-        <div className="login-card">
+        <div className="login">
           <div className="column">
             <Login />
           </div>

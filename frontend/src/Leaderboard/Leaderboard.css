@@ -1,3 +1,8 @@
 .leaderboard-main {
   background-color: #f7fbf1;
+  background-color: #d0f6c8; 
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
 }

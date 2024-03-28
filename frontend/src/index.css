@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #f1f1f5;
+  color: #010103;
   text-decoration: inherit;
 }
 a:hover {
@@ -24,10 +24,27 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  flex: 2;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.login-card {
+  border: 1px solid #f2ebeb; 
+  justify-content: center;
+  background-color: #d0f6c8; 
+  border-radius: 10px;
+}
+
+.login-card input {
+  /* Add your custom styles here */
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  background-color: rgb(229, 243, 233);
+  border-radius: 10px;
+  box-sizing: border-box; 
 }
 
 h1 {
@@ -39,7 +56,7 @@ button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 0.6em;
   font-weight: 500;
   font-family: inherit;
   background-color: #92f47a;
