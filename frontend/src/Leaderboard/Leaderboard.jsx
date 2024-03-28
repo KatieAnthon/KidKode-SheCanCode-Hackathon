@@ -22,7 +22,7 @@ const Leaderboard = () => {
 
   return (
     <div className="leaderboard-main">
-      <h2 className="leaderbaord-title">Leaderboard</h2>
+      <h2 className="leaderbaord-title">Top 10 Schools</h2>
       <table className="leaderbaord-table">
         <thead>
           <tr>
