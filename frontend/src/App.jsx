@@ -1,26 +1,23 @@
-import './App.css'
+import "./App.css";
 import Leaderboard from "./Leaderboard/Leaderboard";
-import login from './login'
+import Login from "./Login/login";
 
 function App() {
-  
-
   return (
     <>
       <div className="container">
-      <Leaderboard />
+        <Leaderboard />
         <div className="column">
-        <h1>Welcome to SheCodes!</h1>
+          <h1>Welcome to SheCodes!</h1>
         </div>
         <div className="login-card">
           <div className="column">
-        <Login />
+            <Login />
+          </div>
         </div>
       </div>
-      </div>
-
     </>
-  )
+  );
 }
 
 export default App;
