@@ -1,4 +1,3 @@
-import "./App.css";
 import Profile from "./Profile/Profile";
 import CaesarCipherGame from "./Game/CaesarCipherGame";
 
