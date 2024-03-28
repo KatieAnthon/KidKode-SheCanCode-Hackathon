@@ -1,5 +1,5 @@
 import "./App.css";
-import StudentProfile from "./Profile/StudentProfile";
+import Profile from "./Profile/Profile";
 import CaesarCipherGame from "./Game/CaesarCipherGame";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<StudentProfile />} />
+        <Route path="/" element={<Profile />} />
         <Route path="/caesar-cipher-game" element={<CaesarCipherGame />} />
       </Routes>
     </Router>
