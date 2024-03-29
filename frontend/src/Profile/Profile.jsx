@@ -4,7 +4,7 @@ import StudentProfile from "./StudentProfile";
 
 export default function Profile() {
   return (
-    <div>
+    <div className="profile">
       <SchoolProfile />
       <StudentProfile />
     </div>

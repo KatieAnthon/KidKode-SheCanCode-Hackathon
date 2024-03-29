@@ -42,6 +42,15 @@ body {
   color: rgba(255, 255, 255, 0.87);
 }
 
+.profile {
+  justify-content: center;
+  align-items: center;
+  background-color: #d0f6c8; 
+  border: 1px solid #f2ebeb; 
+  margin: auto;
+  width: 50%;
+}
+
 
 .login-card {
   border: 1px solid #f2ebeb; 
@@ -74,7 +83,7 @@ button {
   font-size: 0.6em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #0a2a03;
+  background-color: #b9dcb0;
   cursor: pointer;
   transition: border-color 0.25s;
 }
