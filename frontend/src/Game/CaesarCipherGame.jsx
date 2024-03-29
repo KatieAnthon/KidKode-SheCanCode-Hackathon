@@ -65,7 +65,7 @@ const CaesarCipherGame = () => {
   };
 
   return (
-    <div className="container">
+    <div className="gameContainer">
       <h1>Caesar Cipher Decryption Game</h1>
       <h3>Have a go at decrypting a Caesar cipher!</h3>
       <p>Encrypted Message: {encryptedMessage}</p>
