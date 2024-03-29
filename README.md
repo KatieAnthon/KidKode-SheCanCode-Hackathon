@@ -4,9 +4,9 @@ We were challenged with creating an app that can be used to improve diversity in
 
 KidKode is aimed at engaging children as young as 5 years old to engage with the basics of coding. 
 
-Schools are encouraged to get children from diverse backgrounds to get involved with coding from an early age in order to improve their diversity scoring.
+Schools are encouraged to get children from diverse backgrounds involved with coding from an early age in order to improve their diversity scoring.
 
-Children are encouraged to improve their coding skills by levelling up their characters.
+Children are encouraged to improve their coding skills by levelling up their characters and scoring high on the leaderboard at their respective schools.
 
 See more below!
 
