@@ -1,4 +1,14 @@
-# SheCanCode-group3
+# KidKode-SheCanCode-Hackathon
+
+We were challenged with creating an app that can be used to improve diversity in tech. 
+
+KidKode is aimed at engaging children as young as 5 years old to engage with the basics of coding. 
+
+Schools are encouraged to get children from diverse backgrounds to get involved with coding from an early age in order to improve their diversity scoring.
+
+Children are encouraged to improve their coding skills by levelling up their characters.
+
+See more below!
 
 figma link: https://www.figma.com/file/sepOoYfLYhOE2eS5FjTlNi/She-Can-Code?type=design&node-id=54795%3A26442&mode=design&t=1E3K4woGdXaknxp4-1
 
