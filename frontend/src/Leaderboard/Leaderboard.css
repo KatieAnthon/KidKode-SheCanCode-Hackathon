@@ -5,6 +5,9 @@
   font-weight: 500;
   font-family: inherit;
   color: black;
+  width: fit-content;
+  padding: 2rem;
+  justify-content: center;
   /* Add Flexbox properties for centering content */
   display: flex;
   flex-direction: column;
