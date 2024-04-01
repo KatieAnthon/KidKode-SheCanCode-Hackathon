@@ -1,10 +1,10 @@
 # KidKode-SheCanCode-Hackathon
 
-We were challenged with creating an app that can be used to improve diversity in tech within 12 hours!
+We were challenged with creating and developing an app - within 12 hours - that can be used to improve diversity in tech!
 
 KidKode is aimed at engaging children as young as 5 years old to engage with the basics of coding. 
 
-Schools are encouraged to get children from diverse backgrounds involved with coding from an early age in order to improve their diversity scoring.
+Schools are encouraged to get children from diverse backgrounds involved with coding from an early age, in order to improve their School's diversity scoring.
 
 Children are encouraged to improve their coding skills by levelling up their characters and scoring high on the leaderboard at their respective schools.
 
