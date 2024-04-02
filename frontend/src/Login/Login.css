@@ -1,0 +1,18 @@
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical centering */
+  align-items: center; /* Horizontal centering */
+  border: 1px solid #f2ebeb; 
+  background-color: #d0f6c8; 
+  color: white;
+  border-radius: 10px;
+}
+
+.login-title {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.button-container {
+  margin-top: 20px; /* Adjust the spacing between the input and button */
+}

@@ -1,0 +1,23 @@
+.leaderboard-main {
+  background-color: #f7fbf1; 
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: black;
+  width: fit-content;
+  padding: 2rem;
+  justify-content: center;
+  /* Add Flexbox properties for centering content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaderboard-row {
+
+  border: 1px solid #000 ;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}

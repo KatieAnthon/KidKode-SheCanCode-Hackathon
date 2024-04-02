@@ -1,11 +1,11 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 200;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(16, 12, 12, 0.87);
+  background-color: #f8f4f4;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,19 +15,66 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #010103;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
 
-body {
+/* body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  flex: 2;
   min-width: 320px;
   min-height: 100vh;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/logo_bg.png'); /* Replace 'background.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.87);
+  height: fit-content;
+}
+
+.profile {
+  justify-content: center;
+  align-items: center;
+  background-color: #d0f6c8; 
+  border: 1px solid #f2ebeb; 
+  margin: auto;
+  width: 50%;
+}
+
+.login-card {
+  border: 1px solid #f2ebeb; 
+  justify-content: center;
+  background-color: #d0f6c8; 
+  border-radius: 10px;
+}
+
+.login-card input {
+  /* Add your custom styles here */
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  background-color: rgb(229, 243, 233);
+  border-radius: 10px;
+  box-sizing: border-box; 
+}
+
+.gameContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
 }
 
 h1 {
@@ -38,31 +85,19 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 10px;
+  font-size: 0.6em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #b9dcb0;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #30ca66;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
